@@ -2,3 +2,4 @@
 /ext/src
 /ext/Makefile.inc
 /ext/json
+/ext/catch

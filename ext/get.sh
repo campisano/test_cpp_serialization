@@ -31,3 +31,6 @@ echo https://raw.githubusercontent.com/nlohmann/json/v3.5.0/single_include/nlohm
 mkdir json
 curl -s "https://raw.githubusercontent.com/nlohmann/json/v3.5.0/single_include/nlohmann/json.hpp" --output json/json.hpp
 
+fn_get "$PWD" https://codeload.github.com/catchorg/Catch2/zip/v2.6.0
+mkdir catch
+cp -a src/Catch2-2.6.0/single_include/catch2/catch.hpp catch
